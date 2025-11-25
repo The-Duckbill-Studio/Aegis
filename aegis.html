@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <title>Aegis Core</title>
+    <style>
+        #navagation ul {
+            display: flex;
+            gap: 1rem;
+            list-style: none;
+            margin-top: 2.5rem;
+            font-size: large;
+        }
+
+        #navagation ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+        }
+
+        
+
+        #contacts button {
+            margin-top: 1rem;
+            width: 10rem;
+            height: 3rem;
+            border-radius: 2px;
+            border: 0px;
+            filter: drop-shadow(5px 5px 5px );
+            font-size: large;
+            font-weight: 600;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        #contacts button:hover {
+            background-color: rgb(208, 206, 206);
+            transform: scaleY(1.1);
+        }
+
+        .body {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10rem;
+            margin-left: 1rem;
+        }
+
+        .body h2{
+            font-weight: 400;
+            font-size: 2rem;
+        }
+
+        .body h3 {
+            font-weight: 400;
+            font-size: 1.7rem;
+        }
+
+        .body button {
+            margin-top: 0.8rem;
+            height: 3rem;
+            width: 10rem;
+
+            border-radius: 2px;
+            border: 0px;
+            filter: drop-shadow(4px 4px 3px);
+        }
+
+        .infographic {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+
+
+         
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Aegis Core</h1> 
+            <h2>SECURITY SIMPLIFIED. PROJECTS DELIVERED.</h2>
+        </div>
+        <div id="navagation">
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Pricing</a></li>
+            </ul>
+        </div>
+        <div id="contacts">
+            <button>Contact Us</button>
+        </div>
+        
+    </header>
+
+    <section class="infographic"> 
+        <div class="body">
+            <h2>
+                Leveraging AI for <strong>real-time</strong> threat analysis
+            </h2> 
+            <h2>
+                Essential <strong> AI driven</strong> solutions 
+            </h2>
+            <h3>
+            <strong>Intelligence</strong> that never sleeps.
+            </h3>
+
+            <button>
+                Learn More
+            </button>
+
+            
+        </div>
+
+        <div>
+            <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#FF0066" d="M30.2,-50.7C40.2,-46.5,50.2,-40.7,53.1,-31.9C56,-23.2,51.8,-11.6,50.3,-0.8C48.9,9.9,50.3,19.9,46.3,26.7C42.3,33.6,33,37.3,24.4,42.4C15.8,47.5,7.9,53.9,-0.2,54.3C-8.3,54.7,-16.7,49,-29.1,46.1C-41.6,43.2,-58.1,43.2,-64.5,36C-70.9,28.8,-67.1,14.4,-62.2,2.8C-57.3,-8.7,-51.2,-17.4,-48.8,-31.5C-46.4,-45.5,-47.6,-65,-40,-70.6C-32.5,-76.2,-16.2,-68,-3.1,-62.7C10.1,-57.4,20.2,-54.9,30.2,-50.7Z" transform="translate(100 100)" />
+            </svg>
+        </div>
+
+
+
+    </section>
+    
+</body>
+</html>
