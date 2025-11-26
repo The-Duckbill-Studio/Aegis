@@ -71,6 +71,84 @@
             grid-template-columns: 1fr 1fr;
         }
 
+        /* 
+        Second Page
+         */
+
+         .services {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1rem;
+            flex-wrap: wrap;
+         }
+
+         .products {
+            display: grid;
+            margin-top: 1rem;
+            grid-template-columns: 5fr 1fr;
+            border: 1px solid rgba(123, 38, 213, 0.393);
+            background-color: rgba(122, 38, 213, 0.03);
+            border-radius: 5px;
+            width: 20rem;
+            height: 17rem;
+          
+         }
+
+         .products:hover {
+            transition: 0.2s ease-in-out;
+            background-color: rgba(108, 32, 189, 0.07);
+         }
+
+         .products img {
+            padding-left: 1rem;
+            padding-top: 1rem;
+            height: 3rem;
+            width: 3rem;
+         }
+
+        #arrow img {
+            width: 1rem;
+            height: 1rem;
+        }
+
+        .productHeader{
+            font-weight: 600;
+            padding-top: 0.2rem;
+            padding-left: 1rem;
+        }
+
+        .productBody {
+            width: 100%;
+            font-weight: 400;
+            padding-left: 1rem;
+            padding-top: 0.5rem;
+            color: rgb(117, 115, 115);
+        }
+
+        .productsMainContainer {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            gap: 1rem;
+        }
+
+        .imageInfrographic img {
+            padding-left: 3rem;
+        }
+
+
+       
+        .shieldCore {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+
+
+       
 
 
          
@@ -122,6 +200,62 @@
 
 
 
+    </section>
+
+
+    <!-- SECOND PAGE -->
+    
+
+    <section class="services"> 
+        <h2>Our Services</h2>
+        <div class="productsMainContainer">
+            <div class="products">
+                <div class="productContainer">
+                    <img id="shield" src="/src/img/shield.png" alt="">
+                    <p class="productHeader">Placeholder Text</p>
+                    <p class="productBody">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+
+                </div>
+                <div id="arrow">
+                    <img src="/src/img/arrow (1).png" alt="">
+                </div>
+            </div>
+            <div class="products">
+                <div class="productContainer">
+                    <img id="shield" src="/src/img/shield.png" alt="">
+                    <p class="productHeader">Placeholder Text</p>
+                    <p class="productBody">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+
+                </div>
+                <div id="arrow">
+                    <img src="/src/img/arrow (1).png" alt="">
+                </div>
+            </div>
+             <div class="products">
+                <div class="productContainer">
+                    <img id="shield" src="/src/img/shield.png" alt="">
+                    <p class="productHeader">Placeholder Text</p>
+                    <p class="productBody">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                    </p>
+
+                </div>
+                <div id="arrow">
+                    <img src="/src/img/arrow (1).png" alt="">
+                </div>
+            </div>
+             
+        </div>
+    </section>
+    <section class="shieldCore">
+        <div class="imageInfrographic">
+            <img src="/src/img/f5cf418a-435d-4959-9038-719e650e1390_removalai_preview.png" alt="">
+        </div>
+       
     </section>
     
 </body>
