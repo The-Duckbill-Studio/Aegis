@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/style.css">
     <title>Aegis Core</title>
     <style>
        
 
         
 
-        #contacts button {
+        #contacts .contact-link {
+            display: inline-block; 
+            
             margin-top: 1rem;
             width: 10rem;
             height: 3rem;
             border-radius: 2px;
             border: 0px;
-            filter: drop-shadow(5px 5px 5px );
+            filter: drop-shadow(5px 5px 5px);
             font-size: large;
             font-weight: 600;
             transition: transform 0.5s ease-in-out;
+            
+            text-decoration: none; 
+            line-height: 3rem;
+            text-align: center;
+            color: black; 
+            background-color: white; 
         }
 
-        #contacts button:hover {
+        #contacts .contact-link:hover {
             background-color: rgb(208, 206, 206);
             transform: scaleY(1.1);
         }
-
         .body {
             display: flex;
             flex-direction: column;
@@ -205,7 +212,7 @@
             </ul>
         </div>
         <div id="contacts">
-            <button>Contact Us</button>
+            <a href="src/pages/support.html" class="contact-link">Contact Us</a>
         </div>
         
     </header>
@@ -248,7 +255,7 @@
         <div class="productsMainContainer">
             <div class="products">
                 <div class="productContainer">
-                    <img id="shield" src="/src/img/shield.png" alt="">
+                    <img id="shield" src="src/img/shield.png" alt="placeholder">
                     <p class="productHeader">Placeholder Text</p>
                     <p class="productBody">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -256,12 +263,12 @@
 
                 </div>
                 <div id="arrow">
-                    <img src="/src/img/arrow (1).png" alt="">
+                    <img src="src/img/arrow (1).png" alt="placeholder">
                 </div>
             </div>
             <div class="products">
                 <div class="productContainer">
-                    <img id="shield" src="/src/img/shield.png" alt="">
+                    <img id="shield" src="src/img/shield.png" alt="placeholder">
                     <p class="productHeader">Placeholder Text</p>
                     <p class="productBody">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -269,12 +276,13 @@
 
                 </div>
                 <div id="arrow">
-                    <img src="/src/img/arrow (1).png" alt="">
+                    <img src="src/img/arrow (1).png" alt="placeholder
+                    ">
                 </div>
             </div>
              <div class="products">
                 <div class="productContainer">
-                    <img id="shield" src="/src/img/shield.png" alt="">
+                    <img id="shield" src="src/img/shield.png" alt="placeholder">
                     <p class="productHeader">Placeholder Text</p>
                     <p class="productBody">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -282,7 +290,7 @@
 
                 </div>
                 <div id="arrow">
-                    <img src="/src/img/arrow (1).png" alt="">
+                    <img src="src/img/arrow (1).png" alt="placeholder">
                 </div>
             </div>
              
@@ -290,13 +298,13 @@
     </section>
     <section class="shieldCore">
         <div class="imageInfrographic">
-            <img src="/src/img/f5cf418a-435d-4959-9038-719e650e1390_removalai_preview.png" alt="">
+            <img src="src/img/f5cf418a-435d-4959-9038-719e650e1390_removalai_preview.png" alt="placeholder">
         </div>
        <div>
         <ul class="shieldInfographicData">
             <li>
                 <div class="shieldData">
-                    <img src="/src/img/shield (1).png" alt=""> 
+                    <img src="src/img/shield (1).png" alt="placeholder"> 
                 </div>
                 <div class="shieldTextContent"> 
                     <p class="shieldDataHeadline">Innovative Tech</p>  
@@ -305,7 +313,7 @@
             </li>
             <li>
                 <div class="shieldData">
-                    <img src="/src/img/shield (1).png" alt=""> 
+                    <img src="src/img/shield (1).png" alt="placeholder"> 
                 </div>
                 <div class="shieldTextContent"> 
                     <p class="shieldDataHeadline">Innovative Tech</p>  
@@ -314,7 +322,7 @@
             </li>
              <li>
                 <div class="shieldData">
-                    <img src="/src/img/shield (1).png" alt=""> 
+                    <img src="src/img/shield (1).png" alt="placeholder"> 
                 </div>
                 <div class="shieldTextContent"> 
                     <p class="shieldDataHeadline">Innovative Tech</p>  
