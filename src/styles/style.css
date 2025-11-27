@@ -25,3 +25,17 @@ header {
     margin-left: 1rem;
 }
 
+
+#navagation ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-top: 2.5rem;
+    font-size: large;
+}
+
+#navagation ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
